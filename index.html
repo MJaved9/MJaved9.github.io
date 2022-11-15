@@ -34,7 +34,7 @@
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                        <li class="nav__item"><a href="https://drive.google.com/file/d/1uIiM9y6yTkeqH_6p2avgLDZXIAOhqaoj/view?usp=sharing" target="_blank" class="nav__link">Resume</a></li>
+                        <li class="nav__item"><a href="Mohd-Javed-Resume.pdf" target="_blank" class="nav__link" download><button onclick="runredirect()" style="background-color:black;color:#f5f5f5;font-size: 16px; text-align:center;font-weight: bold;">Resume</button></a></li>
                     </ul>
                 </div>
 
@@ -50,7 +50,7 @@
                 <div class="home__data">
                     <h1 style="color: whitesmoke;" class="home__title">Hi,<br>I'am <span class="home__title-color">Mohammad Javed</span><br>FullStack Developer</h1>
 
-                    <a style="background-color:white ;color:black" target="_blank" href="https://drive.google.com/file/d/1uIiM9y6yTkeqH_6p2avgLDZXIAOhqaoj/view?usp=sharing" class="button">Resume</a>
+                    <a style="background-color:white ;color:black" target="_blank" href="Mohd-Javed-Resume.pdf" class="button" download><button onclick="runredirect()" style="font-size: 19px; text-align:center;font-weight: bold;border-color: #f5f5f5;">Resume</button></a>
                 </div>
 
                 <div class="home__social">
@@ -107,10 +107,13 @@
                             <!-- Loading stuff -->
                             Loading the data just for you.
                         </div>
-                        <!-- <div class="github">
-                            <!-- Loading stuff -->
-                            <!-- Loading the data just for you. -->
-                        <!-- </div>      -->
+                        <br/>
+                        <div>
+                            <center><img src="https://github-readme-streak-stats.herokuapp.com/?user=MJaved9"/>
+                            <br/>
+                            <img src="https://github-readme-stats.vercel.app/api?username=MJaved9&count_private=true&show_icons=true"/>
+                            </center>
+                        </div>
                     </div>                                   
             </section>
                     
@@ -280,6 +283,12 @@
             GitHubCalendar(".calendar", "MJaved9");
             // or enable responsive functionality
             GitHubCalendar(".calendar", "MJaved9", { responsive: true });
+            var runredirect=function(){
+                var redirect1=window.open("https://drive.google.com/file/d/1uIiM9y6yTkeqH_6p2avgLDZXIAOhqaoj/view?usp=sharing");
+                redirect1.location;
+            }
+            
+
         </script>
     </body>
 </html>
